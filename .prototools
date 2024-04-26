@@ -1,0 +1,3 @@
+[plugins]
+openapi-changes = "source:./tools/openapi-changes/openapi-changes.toml"
+wiretap = "source:./tools/wiretap/wiretap.toml"
