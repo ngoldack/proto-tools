@@ -1,4 +1,5 @@
 [plugins]
+air = "source:./tools/air/air.toml"
+atac = "source:./tools/atac/atac.toml"
 openapi-changes = "source:./tools/openapi-changes/openapi-changes.toml"
 wiretap = "source:./tools/wiretap/wiretap.toml"
-air = "source:./tools/air/air.toml"

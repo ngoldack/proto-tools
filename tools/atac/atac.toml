@@ -1,0 +1,24 @@
+# A TOML plugin for proto:
+# https://moonrepo.dev/docs/proto/plugins#toml-plugin
+
+name = "atac"
+type = "cli"
+
+[platform.linux]
+download-file = "atac-v{version}-{arch}-unkown-linux-gnu.tar.gz"
+
+[platform.macos]
+download-file = "atac-v{version}-{arch}-apple-darwin.tar.gz"
+
+[platform.windows]
+download-file = "atac-v{version}-{arch}-pc-windows-msvc.tar.gz"
+
+[install]
+download-url = "https://github.com/Julien-cpsn/ATAC/releases/download/v{version}/{download_file}"
+
+[install.arch]
+aarch64 = "aarch64"
+x86_64 = "amd64"
+
+[resolve]
+git-url = "https://github.com/Julien-cpsn/ATAC"
