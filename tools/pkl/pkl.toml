@@ -1,0 +1,17 @@
+# A TOML plugin for proto:
+# https://moonrepo.dev/docs/proto/plugins#toml-plugin
+
+name = "pkl"
+type = "cli"
+
+[platform.linux]
+download-file = "pkl-linux-{arch}"
+
+[platform.macos]
+download-file = "pkl-macos-{arch}"
+
+[install]
+download-url = "https://github.com/apple/pkl/releases/download/{version}/{download_file}"
+
+[resolve]
+git-url = "https://github.com/apple/pkl"
