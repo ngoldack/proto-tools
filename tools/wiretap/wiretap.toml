@@ -17,9 +17,5 @@ download-file = "wiretap_{version}_windows_{arch}.tar.gz"
 checksum-url = "https://github.com/pb33f/wiretap/releases/download/v{version}/checksums.txt"
 download-url = "https://github.com/pb33f/wiretap/releases/download/v{version}/{download_file}"
 
-[install.arch]
-aarch64 = "arm64"
-x86_64 = "amd64"
-
 [resolve]
 git-url = "https://github.com/pb33f/wiretap"
